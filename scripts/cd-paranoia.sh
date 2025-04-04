@@ -1,0 +1,1 @@
+cd-paranoia -Bzw
