@@ -1,0 +1,24 @@
+# Required for xmobar to display output correctly
+x11-misc/xmobar -dbus
+# Required to be able to use startx as normal user
+x11-base/xorg-server suid -elogind
+# Required for pipewire to be used as a sound server
+media-video/pipewire sound-server
+# Required for persist feature in doas
+app-admin/doas persist
+# Required to use opengl with picom
+x11-misc/picom opengl
+# Remove links X support
+www-client/links -X
+# Add install kernel as a post-kernel-install hook to reconfigure grub
+sys-kernel/installkernel grub
+# Enable JACK support for cmus
+media-sound/cmus jack
+# Allow kernel ebuilds to automatically update the /usr/src/linux symlinks
+sys-kernel/gentoo-sources symlink
+# Hardware Acceleration (for some reason requires wayland support), LTO, PGO, and compile with clang for Firefox
+www-client/firefox hwaccel lto pgo clang
+# Remove geoclue (location) and gtk support from Redshift
+x11-misc/redshift -geoclue -gtk
+# Remove daemon support from PulseAudio (not needed for pipewire-pulse)
+media-sound/pulseaudio -daemon

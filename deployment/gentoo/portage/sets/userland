@@ -1,0 +1,21 @@
+# This is a package set of all userland programs.
+# This includes programs that provide a usable desktop and *basic* programs the user will directly interact with.
+# Xorg and required drivers
+x11-base/xorg-drivers
+media-libs/mesa
+x11-base/xorg-server
+x11-apps/xinit
+# WM and related programs that allow for a *usable* desktop
+x11-wm/xmonad
+x11-wm/xmonad-contrib
+x11-misc/xmobar
+x11-misc/dmenu
+x11-misc/slock
+x11-terms/xterm
+x11-misc/picom
+# lxde-base/lxsession
+# Sound
+media-video/pipewire
+media-video/wireplumber
+# Other userland applications
+app-admin/doas

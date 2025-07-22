@@ -1,0 +1,15 @@
+" ===Archie Millard===
+
+" ===General===
+set number	        " Enable Line Numbers
+syntax on	        " Enable syntax highlighting
+set tabstop=4	        " Number of spaces a <Tab> counts for
+set shiftwidth=4	" Number of spaces to use for autoindent
+set autoindent	        " Copy indent from current line when starting a new line
+set smartindent	        " Smart auto-indenting on new lines
+set clipboard=unnamedplus	" Use system clipboard
+set formatoptions+=cro		" Continue comments automatically
+
+" ===Search===
+set incsearch               " Show matches as you type
+set hlsearch                " Highlight all search results

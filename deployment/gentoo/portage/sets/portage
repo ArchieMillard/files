@@ -1,0 +1,7 @@
+# This is a package set that contains any portage utilities
+app-portage/gentoolkit
+app-portage/portage-utils
+app-portage/eix
+app-portage/genlop
+app-eselect/eselect-repository
+app-admin/eclean-kernel
