@@ -1,0 +1,4 @@
+#! /bin/sh
+dpkg --get-selections | grep -v deinstall
+# dpkg --get-selections | grep -v deinstall > ~/Desktop/packages
+# dpkg -l
