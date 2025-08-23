@@ -18,8 +18,8 @@ sleep 10
 exit
 
 # FURTHER NOTES
-# Install the gnome extensions: 'Blur My Shell', 'Caffeine' and 'Just Perfection'.
-# To completely remove ImageMagick
+# Install the gnome extensions: 'Blur My Shell', 'Caffeine' and 'Just Perfection'
+# To completely remove ImageMagick:
 # sudo nala purge imagemagick-6-common && sudo nala clean && sudo nala autopurge
 # To make a swapfile of 4GB at /
 # sudo dd if=/dev/zero of=/swapfile bs=1G count=4
@@ -30,7 +30,5 @@ exit
 # sudo lvremove /dev/VOLUME_GROUP/LOGICAL_VOLUME
 # To fill all of the unallocated space in the Volume Group:
 # sudo lvextend -l +100%FREE /dev/VOLUME_GROUP/LOGICAL_VOLUME
-# To install libdvdcss
-# git clone https://code.videolan.org/videolan/libdvdcss.git
-# (WHILE IN THE DIRECTORY) ./configure --prefix=/usr
-# sudo make && sudo make install
+# To install libdvdcss (contrib):
+# sudo apt install libdvd-pkg
