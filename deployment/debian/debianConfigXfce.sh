@@ -14,7 +14,7 @@ sleep 10
 exit
 
 # FURTHER NOTES
-# Install xmonad, ghc and such
+# Install xmonad, ghc and such:
 # sudo apt install xmonad xmobar libghc-xmonad-extras-dev ghc
 # To make a swapfile of 4GB at /
 # sudo dd if=/dev/zero of=/swapfile bs=1G count=4
@@ -25,11 +25,9 @@ exit
 # sudo lvremove /dev/VOLUME_GROUP/LOGICAL_VOLUME
 # To fill all of the unallocated space in the Volume Group:
 # sudo lvextend -l +100%FREE /dev/VOLUME_GROUP/LOGICAL_VOLUME
-# Consider then editing the /etc/fstab file acordingly.
+# Consider then editing the /etc/fstab file acordingly
 # To set geographic timezone:
 # sudo dpkg-reconfigure tzdata
 ###
-# To install libdvdcss
-# git clone https://code.videolan.org/videolan/libdvdcss.git
-# (WHILE IN THE DIRECTORY) ./configure --prefix=/usr
-# sudo make && sudo make install
+# To install libdvdcss (contrib):
+# sudo apt install libdvd-pkg
