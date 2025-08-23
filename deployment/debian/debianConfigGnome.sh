@@ -4,9 +4,9 @@ cd ~
 # Install Gnome Meta-Package
 sudo apt install gnome
 # Remove unwanted packages.
-sudo apt purge shotwell gnome-games evolution rhythmbox
+sudo apt purge shotwell evolution
 # Install wanted packages.
-sudo apt install bash binutils bison coreutils diffutils findutils gawk gcc grep gzip audacity gimp vlc htop vim neovim gnome-boxes gparted pavucontrol neofetch ghc links brasero cd-paranoia picard git xfonts-terminus fonts-terminus qjackctl geary make virt-manager gnome-firmware fwupdate vcdimager synaptic software-properties-gtk lshw unattended-upgrades vrms dconf-editor gnome-console devede handbrake inkscape gnome-tweaks obs-studio v4l2loopback-dkms libxcb-xinerama0 libxcb-cursor0 libnss3
+sudo apt install bash binutils bison coreutils diffutils findutils gawk gcc grep gzip audacity gimp vlc htop vim neovim gnome-boxes gparted pavucontrol fastfetch links brasero cd-paranoia picard git xfonts-terminus fonts-terminus geary make gnome-firmware fwupdate vcdimager synaptic lshw unattended-upgrades vrms dconf-editor gnome-console devede handbrake inkscape gnome-tweaks gnome-shell-extensions
 # Remove other wanted packages after installation of wanted packages.
 sudo apt purge imagemagick gnome-terminal
 # Configure auto-upgrades.
