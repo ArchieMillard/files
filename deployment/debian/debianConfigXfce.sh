@@ -4,7 +4,7 @@ cd ~
 # Remove unwanted packages.
 sudo apt purge quodlibet parole
 # Install wanted packages.
-sudo apt install bash binutils bison coreutils blueman diffutils findutils gawk gcc grep gzip audacity gimp vlc htop vim gnome-disk-utility gparted pavucontrol fastfetch links brasero picard transmission-gtk handbrake cd-paranoia git xfonts-terminus fonts-terminus make fwupdate vcdimager synaptic lshw unattended-upgrades vrms dconf-editor devede inkscape default-jre ffmpeg yt-dlp obs-studio
+sudo apt install bash binutils bison coreutils blueman diffutils findutils gawk gcc grep gzip audacity gimp vlc htop vim gnome-disk-utility gparted pavucontrol fastfetch links brasero picard transmission-gtk handbrake cd-paranoia git xfonts-terminus fonts-terminus make fwupdate vcdimager synaptic lshw unattended-upgrades vrms dconf-editor devede inkscape ffmpeg yt-dlp obs-studio
 # Configure auto-upgrades.
 sudo dpkg-reconfigure unattended-upgrades
 # Update + Upgrade and clean up system.
